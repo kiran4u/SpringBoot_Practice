@@ -1,0 +1,69 @@
+2022-08-28 07:44:37,299 [INFO] com.javatechie.CourseServiceApplication {main} Starting CourseServiceApplication using Java 1.8.0_342 on KIRANBABU with PID 32696 (C:\SpringBoot_Course\workspaces\course-service-main\target\classes started by kiran in C:\SpringBoot_Course\workspaces\course-service-main)
+2022-08-28 07:44:37,302 [DEBUG] com.javatechie.CourseServiceApplication {main} Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-28 07:44:37,304 [INFO] com.javatechie.CourseServiceApplication {main} No active profile set, falling back to 1 default profile: "default"
+2022-08-28 07:44:38,108 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 07:44:38,190 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2022-08-28 07:44:39,056 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2022-08-28 07:44:39,073 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2022-08-28 07:44:39,073 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 07:44:39,180 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2022-08-28 07:44:39,180 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 1819 ms
+2022-08-28 07:44:39,213 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2022-08-28 07:44:39,508 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2022-08-28 07:44:39,521 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration {main} H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 07:44:39,676 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 07:44:39,734 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 07:44:39,919 [INFO] org.hibernate.annotations.common.Version {main} HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 07:44:40,110 [INFO] org.hibernate.dialect.Dialect {main} HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 07:44:40,804 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 07:44:40,814 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 07:44:41,073 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext {main} Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseController' defined in file [C:\SpringBoot_Course\workspaces\course-service-main\target\classes\com\javatechie\controller\CourseController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseService' defined in file [C:\SpringBoot_Course\workspaces\course-service-main\target\classes\com\javatechie\service\CourseService.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.slf4j.Logger' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-08-28 07:44:41,073 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 07:44:41,074 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {main} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-28 07:44:41,083 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Shutdown initiated...
+2022-08-28 07:44:41,087 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Shutdown completed.
+2022-08-28 07:44:41,089 [INFO] org.apache.catalina.core.StandardService {main} Stopping service [Tomcat]
+2022-08-28 07:44:41,103 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener {main} 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-28 07:44:41,127 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter {main} 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.javatechie.service.CourseService required a bean of type 'org.slf4j.Logger' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.slf4j.Logger' in your configuration.
+
+2022-08-28 07:44:59,595 [INFO] com.javatechie.CourseServiceApplication {main} Starting CourseServiceApplication using Java 1.8.0_342 on KIRANBABU with PID 29476 (C:\SpringBoot_Course\workspaces\course-service-main\target\classes started by kiran in C:\SpringBoot_Course\workspaces\course-service-main)
+2022-08-28 07:44:59,598 [DEBUG] com.javatechie.CourseServiceApplication {main} Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-28 07:44:59,600 [INFO] com.javatechie.CourseServiceApplication {main} No active profile set, falling back to 1 default profile: "default"
+2022-08-28 07:45:00,512 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-28 07:45:00,604 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {main} Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2022-08-28 07:45:01,556 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat initialized with port(s): 8080 (http)
+2022-08-28 07:45:01,575 [INFO] org.apache.catalina.core.StandardService {main} Starting service [Tomcat]
+2022-08-28 07:45:01,576 [INFO] org.apache.catalina.core.StandardEngine {main} Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-28 07:45:01,693 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {main} Initializing Spring embedded WebApplicationContext
+2022-08-28 07:45:01,693 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {main} Root WebApplicationContext: initialization completed in 2041 ms
+2022-08-28 07:45:01,728 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Starting...
+2022-08-28 07:45:02,055 [INFO] com.zaxxer.hikari.HikariDataSource {main} HikariPool-1 - Start completed.
+2022-08-28 07:45:02,075 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration {main} H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-08-28 07:45:02,272 [INFO] org.hibernate.jpa.internal.util.LogHelper {main} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-28 07:45:02,350 [INFO] org.hibernate.Version {main} HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-28 07:45:02,542 [INFO] org.hibernate.annotations.common.Version {main} HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-28 07:45:02,696 [INFO] org.hibernate.dialect.Dialect {main} HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-28 07:45:03,473 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {main} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-28 07:45:03,483 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {main} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 07:45:03,800 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {main} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-28 07:45:04,265 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {main} Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-28 07:45:04,275 [INFO] com.javatechie.CourseServiceApplication {main} Started CourseServiceApplication in 5.16 seconds (JVM running for 5.599)
+2022-08-28 07:49:40,315 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {SpringApplicationShutdownHook} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-28 07:49:40,316 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl {SpringApplicationShutdownHook} HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-28 07:49:40,325 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown initiated...
+2022-08-28 07:49:40,332 [INFO] com.zaxxer.hikari.HikariDataSource {SpringApplicationShutdownHook} HikariPool-1 - Shutdown completed.
